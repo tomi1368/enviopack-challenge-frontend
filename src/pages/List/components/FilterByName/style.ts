@@ -1,0 +1,35 @@
+import styled from "styled-components";
+
+export const Input = styled("input")`
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 15px;
+  outline: none;
+  width: 100%;
+  min-height: calc(40px - 2px);
+  height: auto;
+  box-shadow: 3px 3px 6px 0 rgba(112, 112, 112, 0.16);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border: 2px solid;
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #4f26a2;
+  box-shadow: 3px 3px 6px 0 rgba(112, 112, 112, 0.16);
+`;

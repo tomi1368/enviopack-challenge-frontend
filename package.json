@@ -1,0 +1,30 @@
+{
+  "name": "enviopack-challenge-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "json:server": "json-server --port 2000  --watch db.json"
+  },
+  "dependencies": {
+    "connected-react-router": "^6.9.3",
+    "json-server": "^0.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-paginate": "^8.1.4",
+    "react-router-dom": "^6.8.1",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.2.2",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  }
+}
